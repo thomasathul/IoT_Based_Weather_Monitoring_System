@@ -10,7 +10,7 @@ from adafruit_mcp3xxx.analog_in import AnalogIn
 
 #Thingspeak Credentials
 channel_id = 2571640
-write_key="2LPV4J63J5Q19J3N"
+write_key="Your_Key"
 
 #Channel Ids
 channel = thingspeak.Channel(id=channel_id, api_key = write_key)
