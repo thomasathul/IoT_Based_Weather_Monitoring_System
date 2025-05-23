@@ -1,6 +1,6 @@
 # 🌦️ IoT-Based Weather Monitoring System
 
-An Internet of Things (IoT) project designed to monitor environmental conditions in real-time using sensors and a Raspberry Pi. The system collects temperature, humidity, pressure, and air quality data and uploads it to the ThingSpeak cloud platform for visualization and analysis.
+A project designed to monitor environmental conditions in real-time using sensors and a Raspberry Pi. The system collects temperature, humidity, pressure, and air quality data and uploads it to the ThingSpeak cloud platform for visualization and analysis.
 
 ---
 
@@ -79,16 +79,6 @@ pip install Adafruit_DHT bmpsensor thingspeak adafruit-circuitpython-mcp3xxx
 
 ---
 
-## 🧬 Sample Output
-
-```bash
-Gas Concentration: 15.32%
-Pressure is 100325
-Temperature is 26 C
-Humidity is 45 %
-```
-
----
 
 ## 🧾 Code Overview
 
@@ -110,15 +100,8 @@ Main logic in `MicroProject.py`:
 
 ---
 
-## 🔬 Limitations & Future Work
 
-### Known Limitations:
-
-- Sensor drift / noise over time
-- Dependence on stable power and WiFi
-- Initial setup complexity
-
-### Future Improvements:
+## Future Improvements:
 
 - Add sensors (e.g., rain gauge, light sensor)
 - Predictive analytics with ML (LSTM models)
@@ -126,26 +109,3 @@ Main logic in `MicroProject.py`:
 
 ---
 
-## 📜 License
-
-MIT License
-
----
-
-## 👥 Authors
-
-- Siddhi Dilip Harischandrakar  
-- Atharva Mahajan  
-- Athul Thomas  
-
-> Department of Electrical and Computer Engineering  
-> Concordia University, Montreal
-
----
-
-## 📬 Contact
-
-For questions or contributions, email:
-- hsiddhi47@gmail.com
-- atharvam09@gmail.com
-- thomasathul03@gmail.com
